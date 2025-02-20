@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Sophisticated neutral base */
+    --background: 35 29% 97%;
+    --foreground: 35 25% 12%;
+
+    /* Warm card backgrounds */
+    --card: 35 25% 98%;
+    --card-foreground: 35 25% 12%;
+
+    /* Consistent with card */
+    --popover: 35 25% 98%;
+    --popover-foreground: 35 25% 12%;
+
+    /* Sage green primary */
+    --primary: 158 23% 46%;
+    --primary-foreground: 35 25% 98%;
+
+    /* Lighter sage secondary */
+    --secondary: 158 15% 90%;
+    --secondary-foreground: 158 23% 46%;
+
+    /* Muted sage */
+    --muted: 158 15% 90%;
+    --muted-foreground: 35 25% 35%;
+
+    /* Warm terracotta accent */
+    --accent: 14 45% 65%;
+    --accent-foreground: 35 25% 98%;
+
+    /* Warning/destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 35 25% 98%;
+
+    /* Borders and inputs */
+    --border: 158 15% 85%;
+    --input: 158 15% 85%;
+    --ring: 158 23% 46%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark mode - deep, rich tones */
+    --background: 35 25% 12%;
+    --foreground: 35 25% 98%;
+
+    --card: 35 25% 15%;
+    --card-foreground: 35 25% 98%;
+
+    --popover: 35 25% 15%;
+    --popover-foreground: 35 25% 98%;
+
+    --primary: 158 23% 46%;
+    --primary-foreground: 35 25% 98%;
+
+    --secondary: 158 15% 25%;
+    --secondary-foreground: 35 25% 98%;
+
+    --muted: 158 15% 25%;
+    --muted-foreground: 35 25% 80%;
+
+    --accent: 14 45% 55%;
+    --accent-foreground: 35 25% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 35 25% 98%;
+
+    --border: 158 15% 25%;
+    --input: 158 15% 25%;
+    --ring: 158 23% 46%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.pt-header {
+  padding-top: 4rem;
+}
+
+/* Center all sections by default */
+section {
+  @apply flex flex-col items-center justify-center w-full;
+}
+
+/* Ensure consistent container padding */
+.container {
+  @apply px-4 sm:px-6 lg:px-8 mx-auto;
+}
+
+/* Consistent card styling */
+.card {
+  @apply bg-card text-card-foreground rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300;
+}
+
+/* Button hover effects */
+.button-hover {
+  @apply hover:bg-primary/90 transition-colors duration-300;
+}
+
