@@ -3,49 +3,89 @@ import { ImageCarousel } from "@/components/image-carousel"
 
 const images = [
   {
-    src: "/assets/home-stay-photos/DINING_0206.jpg?height=600&width=1200",
+    src: "/assets/gallery/gallery (1).jpg?height=600&width=1200",
     alt: "Resort Exterior",
-    caption: "Swan Resort Main Building",
+    caption: "",
   },
   {
-    src: "/assets/home-stay-photos/DINING_0207.jpg?height=600&width=1200",
+    src: "/assets/gallery/gallery (2).jpg?height=600&width=1200",
     alt: "Luxury Suite",
-    caption: "Deluxe Suite Interior",
+    caption: "",
   },
   {
-    src: "/assets/home-stay-photos/DINING_0210.jpg?height=600&width=1200",
+    src: "/assets/gallery/gallery (3).jpg?height=600&width=1200",
     alt: "Nature Trail",
-    caption: "Scenic Walking Trail",
+    caption: "",
   },
   {
-    src: "/assets/home-stay-photos/kitchen.jpg?height=600&width=1200",
+    src: "/assets/gallery/gallery (4).jpg?height=600&width=1200",
     alt: "Dining Area",
-    caption: "Farm-to-Table Restaurant",
+    caption: "",
   },
   {
-    src: "/assets/home-stay-photos/bedroom-1.jpg?height=600&width=1200",
+    src: "/assets/gallery/gallery (5).jpg?height=600&width=1200",
     alt: "Sunset View",
-    caption: "Evening at Swan Resort",
+    caption: "",
   },
   {
-    src: "/assets/home-stay-photos/gazebo3.jpg?height=600&width=1200",
+    src: "/assets/gallery/gallery (6).jpg?height=600&width=1200",
     alt: "Wellness Center",
-    caption: "Spa and Wellness Facilities",
+    caption: "",
   },
   {
-    src: "/assets/home-stay-photos/bedroom3.jpg?height=600&width=1200",
+    src: "/assets/gallery/gallery (7).jpg?height=600&width=1200",
     alt: "Garden",
-    caption: "Organic Garden",
+    caption: "",
   },
   {
-    src: "/assets/home-stay-photos/bedroom4.jpg?height=600&width=1200",
+    src: "/assets/gallery/gallery (8).jpg?height=600&width=1200",
     alt: "Solar Panels",
-    caption: "Sustainable Energy System",
+    caption: "",
   },
   {
-    src: "/assets/home-stay-photos/gazebo.jpg?height=600&width=1200",
+    src: "/assets/gallery/gallery (9).jpg?height=600&width=1200",
     alt: "Yoga Deck",
-    caption: "Morning Yoga Session",
+    caption: "",
+  },
+  {
+    src: "/assets/gallery/gallery (10).jpg?height=600&width=1200",
+    alt: "Pool View",
+    caption: "",
+  },
+  {
+    src: "/assets/gallery/gallery (11).jpg?height=600&width=1200",
+    alt: "Lounge Area",
+    caption: "",
+  },
+  {
+    src: "/assets/gallery/gallery (12).jpg?height=600&width=1200",
+    alt: "Terrace",
+    caption: "",
+  },
+  {
+    src: "/assets/gallery/gallery (13).jpg?height=600&width=1200",
+    alt: "Conference Room",
+    caption: "",
+  },
+  {
+    src: "/assets/gallery/gallery (14).jpg?height=600&width=1200",
+    alt: "Fitness Center",
+    caption: "",
+  },
+  {
+    src: "/assets/gallery/gallery (15).jpg?height=600&width=1200",
+    alt: "Bar",
+    caption: "",
+  },
+  {
+    src: "/assets/gallery/gallery (16).jpg?height=600&width=1200",
+    alt: "Garden Path",
+    caption: "",
+  },
+  {
+    src: "/assets/gallery/gallery (17).jpg?height=600&width=1200",
+    alt: "Reception",
+    caption: "",
   },
 ]
 
