@@ -22,7 +22,7 @@ export function Header() {
       <nav className="container mx-auto">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex-shrink-0 font-semibold text-xl text-primary">
-            The Shrot Trust
+            Shrot Trust
           </Link>
 
           {/* Desktop Navigation */}

@@ -26,7 +26,7 @@ export default function Home() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
-              Welcome to Swan Resort
+              Shrot Trust
             </motion.h1>
             <motion.p
               className="text-xl sm:text-2xl text-white mb-8 max-w-2xl mx-auto"
@@ -34,7 +34,7 @@ export default function Home() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.4 }}
             >
-              Experience luxury in harmony with nature at our exclusive off-grid resort
+              एक पहल
             </motion.p>
             <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.6 }}>
               <Link href="/bookings">

@@ -9,9 +9,9 @@ import { Providers } from "@/components/providers"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "The Shrot Trust - Swan Resort",
+  title: "Shrot Trust",
   description: "Experience luxury in nature at Swan, our off-grid resort",
-    generator: 'v0.dev'
+  icons: "/logo.png"
 }
 
 export default function RootLayout({
