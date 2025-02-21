@@ -11,8 +11,8 @@ export default function Home() {
     <PageWrapper>
       {/* Hero Section */}
       <section className="relative h-screen">
-        <Image src="/placeholder.svg?height=1080&width=1920" alt="Swan Resort" fill className="object-cover" priority />
-        <div className="absolute inset-0 bg-black/40" />
+        <Image src="assets/background.jpg?height=1080&width=1920" alt="Swan Resort" fill className="object-cover" priority />
+        <div className="absolute inset-0 bg-black/50" />
         <motion.div
           className="absolute inset-0 flex items-center justify-center text-center"
           initial={{ opacity: 0 }}
@@ -72,14 +72,17 @@ export default function Home() {
               {
                 title: "Luxury Accommodation",
                 description: "Experience comfort and elegance in our thoughtfully designed spaces",
+                image: "/assets/home-stay-photos/gazebo.jpg",
               },
               {
                 title: "Natural Surroundings",
                 description: "Immerse yourself in the pristine beauty of our location",
+                image: "/assets/home-stay-photos/gazebo3.jpg",
               },
               {
                 title: "Sustainable Living",
                 description: "Experience off-grid living without compromising on comfort",
+                image: "/assets/background-coloured.jpg",
               },
             ].map((feature, index) => (
               <motion.div
@@ -92,7 +95,7 @@ export default function Home() {
               >
                 <div className="rounded-lg overflow-hidden mb-4">
                   <Image
-                    src="/placeholder.svg?height=300&width=400"
+                    src={feature.image}
                     alt={feature.title}
                     width={400}
                     height={300}

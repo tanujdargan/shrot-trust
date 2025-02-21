@@ -2,37 +2,37 @@ import { MemberCard } from "@/components/member-card"
 
 const members = [
   {
-    name: "Sarah Johnson",
+    name: "Person 1",
     role: "Trustee Chair",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/assets/terrace2.jpg?height=400&width=400",
     description: "Leading the vision of sustainable luxury tourism.",
   },
   {
-    name: "Michael Chen",
+    name: "Person 2",
     role: "Environmental Director",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/assets/terrace.jpg?height=400&width=400",
     description: "Overseeing our ecological initiatives and sustainability programs.",
   },
   {
-    name: "Emma Williams",
+    name: "Person 3",
     role: "Operations Manager",
     image: "/placeholder.svg?height=400&width=400",
     description: "Ensuring smooth day-to-day operations at Swan Resort.",
   },
   {
-    name: "David Miller",
+    name: "Person 4",
     role: "Community Relations",
     image: "/placeholder.svg?height=400&width=400",
     description: "Building strong relationships with local communities.",
   },
   {
-    name: "Lisa Thompson",
+    name: "Person 5",
     role: "Sustainability Expert",
     image: "/placeholder.svg?height=400&width=400",
     description: "Implementing innovative eco-friendly solutions.",
   },
   {
-    name: "James Wilson",
+    name: "Person 6",
     role: "Guest Experience Director",
     image: "/placeholder.svg?height=400&width=400",
     description: "Creating memorable experiences for our guests.",

@@ -30,7 +30,7 @@ export default function AboutPage() {
       <div className="pt-header">
         <section className="py-20">
           <div className="container px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl mx-auto">
+            <div className="max-w-5xl mx-auto">
               <motion.h1
                 className="text-4xl font-bold mb-8"
                 variants={contentVariants}
@@ -43,7 +43,7 @@ export default function AboutPage() {
 
               <div className="prose max-w-none">
                 <motion.p
-                  className="text-lg mb-6"
+                  className="text-lg mb-12"
                   variants={contentVariants}
                   initial="hidden"
                   animate="visible"
@@ -54,48 +54,53 @@ export default function AboutPage() {
                   off-grid paradise that proves eco-conscious living doesn't mean compromising on comfort.
                 </motion.p>
 
-                <motion.h2
-                  className="text-2xl font-semibold mt-12 mb-4"
-                  variants={contentVariants}
-                  initial="hidden"
-                  animate="visible"
-                  transition={{ duration: 0.5, delay: 0.3 }}
-                >
-                  Our Mission
-                </motion.h2>
-                <motion.p
-                  className="mb-6"
-                  variants={contentVariants}
-                  initial="hidden"
-                  animate="visible"
-                  transition={{ duration: 0.5, delay: 0.4 }}
-                >
-                  We strive to demonstrate that sustainable living can be both luxurious and responsible. Through Swan
-                  Resort, we offer our guests an opportunity to experience the perfect balance between modern comfort
-                  and environmental consciousness.
-                </motion.p>
+                <div className="flex flex-col md:flex-row gap-8 mb-12">
+                  <motion.div
+                    className="md:w-1/3"
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.6, delay: 0.3 }}
+                  >
+                    <div className="aspect-[2/3] relative rounded-lg overflow-hidden">
+                      <Image
+                        src="/assets/home-stay-photos/gazebo4.jpg?height=900&width=600"
+                        alt="Swan Resort Vertical View"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </motion.div>
 
-                <motion.div
-                  className="my-12"
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.6, delay: 0.5 }}
-                >
-                  <Image
-                    src="/placeholder.svg?height=400&width=800"
-                    alt="Swan Resort Exterior"
-                    width={800}
-                    height={400}
-                    className="rounded-lg w-full"
-                  />
-                </motion.div>
+                  <div className="md:w-2/3">
+                    <motion.h2
+                      className="text-2xl font-semibold mb-4"
+                      variants={contentVariants}
+                      initial="hidden"
+                      animate="visible"
+                      transition={{ duration: 0.5, delay: 0.4 }}
+                    >
+                      Our Mission
+                    </motion.h2>
+                    <motion.p
+                      className="mb-6 md:pl-8 border-l-2 border-primary"
+                      variants={contentVariants}
+                      initial="hidden"
+                      animate="visible"
+                      transition={{ duration: 0.5, delay: 0.5 }}
+                    >
+                      We strive to demonstrate that sustainable living can be both luxurious and responsible. Through
+                      Swan Resort, we offer our guests an opportunity to experience the perfect balance between modern
+                      comfort and environmental consciousness. Our commitment to sustainability goes beyond mere
+                      conservation – it's about creating a model for future developments that harmoniously blend luxury
+                      with environmental responsibility.
+                    </motion.p>
 
-                <motion.h2
+                    <motion.h2
                   className="text-2xl font-semibold mb-4"
                   variants={contentVariants}
                   initial="hidden"
                   animate="visible"
-                  transition={{ duration: 0.5, delay: 0.6 }}
+                  transition={{ duration: 0.5, delay: 0.7 }}
                 >
                   The Off-Grid Experience
                 </motion.h2>
@@ -104,20 +109,23 @@ export default function AboutPage() {
                   variants={contentVariants}
                   initial="hidden"
                   animate="visible"
-                  transition={{ duration: 0.5, delay: 0.7 }}
+                  transition={{ duration: 0.5, delay: 0.8 }}
                 >
                   At Swan Resort, we've carefully crafted an experience that showcases the potential of off-grid living.
                   Our facilities are powered by renewable energy, utilize advanced water conservation systems, and
                   implement sustainable waste management practices – all while providing the amenities and comfort
                   expected of a luxury resort.
                 </motion.p>
+                  </div>
+                </div>
+
 
                 <motion.h2
                   className="text-2xl font-semibold mt-12 mb-4"
                   variants={contentVariants}
                   initial="hidden"
                   animate="visible"
-                  transition={{ duration: 0.5, delay: 0.8 }}
+                  transition={{ duration: 0.5, delay: 0.9 }}
                 >
                   Our Commitment
                 </motion.h2>
@@ -126,7 +134,7 @@ export default function AboutPage() {
                   variants={contentVariants}
                   initial="hidden"
                   animate="visible"
-                  transition={{ duration: 0.5, delay: 0.9 }}
+                  transition={{ duration: 0.5, delay: 1 }}
                 >
                   The Shrot Trust is committed to:
                 </motion.p>
@@ -135,7 +143,7 @@ export default function AboutPage() {
                   variants={listVariants}
                   initial="hidden"
                   animate="visible"
-                  transition={{ duration: 0.5, delay: 1 }}
+                  transition={{ duration: 0.5, delay: 1.1 }}
                 >
                   {[
                     "Environmental conservation and sustainability",
